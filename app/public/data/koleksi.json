@@ -1,10 +1,82 @@
 [
   {
     "id": "1",
-    "judul": "Contoh item pertama",
-    "kategori": "Contoh",
-    "fieldTema1": "ganti sesuai field tema",
-    "fieldTema2": 0,
-    "fieldTema3": "ganti sesuai field tema"
+    "judul": "Bumi",
+    "kategori": "Novel",
+    "Penulis": "Tere Liye",
+    "tahunTerbit": 2014,
+    "status": "dimiliki"
+  },
+  {
+    "id": "2",
+    "judul": "Laskar Pelangi",
+    "kategori": "Novel",
+    "Penulis": "Andre Hirata",
+    "tahunTerbit": 2005,
+    "status": "sedang dibaca"
+  },
+  {
+    "id": "3",
+    "judul": "Negeri 5 Menara",
+    "kategori": "Novel",
+    "Penulis": "Ahmad Fuadi",
+    "tahunTerbit": 2009,
+    "status": "ingin dibeli"
+  },
+  {
+    "id": "4",
+    "judul": "Filosofi Teras",
+    "kategori": "Pengembangan Diri",
+    "Penulis": "Henry Manampiring",
+    "tahunTerbit": 2018,
+    "status": "sedang dibaca"
+  },
+  {
+    "id": "5",
+    "judul": "The Psychology of Money",
+    "kategori": "Keuangan",
+    "Penulis": "Morgen Housel",
+    "tahunTerbit": 2020,
+    "status": "dimiliki"
+  },
+  {
+    "id": "6",
+    "judul": "Pemrograman Java Untuk Pemula",
+    "kategori": "Teknologi",
+    "Penulis": "Budi Raharjo",
+    "tahunTerbit": 2021,
+    "status": "dimiliki"
+  },
+  {
+    "id": "7",
+    "judul": "Matahari",
+    "kategori": "Novel",
+    "Penulis": "Tere Liye",
+    "tahunTerbit": 2016,
+    "status": "ingin dibeli"
+  },
+  {
+    "id": "8",
+    "judul": "Belajar Web Development",
+    "kategori": "Teknologi",
+    "Penulis": "Andi Setiawan",
+    "tahunTerbit": 2022,
+    "status": "sedang dibaca"
+  },
+  {
+    "id": "9",
+    "judul": "Dunia Sophie",
+    "kategori": "Filsafat",
+    "Penulis": "Jostein Gaarder",
+    "tahunTerbit": 1991,
+    "status": "ingin dibeli"
+  },
+  {
+    "id": "10",
+    "judul": "Rich Dad Poor Dad",
+    "kategori": "Keuangan",
+    "Penulis": "Robert T. Kiyosaki",
+    "tahunTerbit": 1997,
+    "status": "dimiliki"
   }
 ]
