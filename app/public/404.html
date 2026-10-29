@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="UTF-8">
+  <script>
+    const path = window.location.pathname
+    const repo = '/uts-paw'
+
+    if (path.startsWith(repo)) {
+      const tujuan = path.substring(repo.length) || '/'
+      sessionStorage.setItem('redirect', tujuan)
+    }
+
+    window.location.replace(repo + '/')
+  </script>
+</head>
+<body>
+</body>
+</html>
