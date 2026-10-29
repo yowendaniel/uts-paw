@@ -1,22 +1,23 @@
-import { useContext } from 'react'
-import { KoleksiContext } from '../context/koleksiContext.js'
+import { Link } from 'react-router-dom'
+import useKoleksi from '../hooks/useKoleksi.js'
+import mahasiswa from '../../mahasiswa.json'
 
 export default function Beranda() {
-  const { items } = useContext(KoleksiContext)
+  const { items, loading } = useKoleksi()
+  const jumlahKategori = new Set(items.map((item) => item.kategori)).size
 
   return (
-    <main>
-      <h1>Rak Buku Pribadi</h1>
-      <p>Tema: Rak Buku Pribadi</p>
-
-      <h2>Koleksi Buku</h2>
-
-      {items.map((item) => (
-        <div key={item.id}>
-          <h3>{item.judul}</h3>
-          <p>{item.kategori}</p>
-        </div>
-      ))}
-    </main>
+    <section>
+      <h1>Daftar Tugas</h1>
+      <p>Tema: {mahasiswa.tema}</p>
+      {loading ? (
+        <p>Memuat ringkasan...</p>
+      ) : (
+        <p>
+          Ada {items.length} tugas dalam {jumlahKategori} kategori.
+        </p>
+      )}
+      <Link to="/koleksi">Lihat semua tugas</Link>
+    </section>
   )
 }
