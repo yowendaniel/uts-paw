@@ -1,3 +1,4 @@
+
 import { useState } from 'react'
 import { useNavigate } from 'react-router-dom'
 import useKoleksi from '../hooks/useKoleksi.js'
@@ -29,16 +30,10 @@ export default function Tambah() {
       return
     }
 
-    if (!form.penulis.trim() || !form.tahunTerbit) {
-      setGalat('Penulis dan tahun terbit wajib diisi.')
-      return
-    }
-
     tambah({
       ...form,
       judul: form.judul.trim(),
-      penulis: form.penulis.trim(),
-      tahunTerbit: Number(form.tahunTerbit),
+      tahunTerbit: form.tahunTerbit ? Number(form.tahunTerbit) : '',
     })
 
     navigate('/koleksi')
