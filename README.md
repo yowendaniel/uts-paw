@@ -71,11 +71,23 @@ Kelas : RA
 Tema  : Rak Buku Pribadi
 Deployment: https://github.com/yowendaniel/uts-paw
 
-![Tangkapan layar beranda](docs/beranda.png)
+![Tangkapan layar beranda](app/docs/beranda.png)
+![Tangkapan layar koleksi](app/docs/koleksi.png)
+![Tangkapan layar detail](app/docs/detail.png)
+![Tangkapan layar statistik](app/docs/statistik.png)
+![Tangkapan layar tambah](app/docs/tambah.png)
+![Tangkapan layar tentang](app/docs/tentang.png)
+![Tangkapan layar halaman 404](app/docs/halaman%20404.png)
 
 ## Fitur
 
-- ...
+- Beranda
+- Koleksi
+- Detail
+- Statistik
+- Tambah
+- Tentang
+- Halaman 404
 
 ## Menjalankan secara lokal
 
@@ -85,5 +97,9 @@ npm run dev
 
 ## Konsep React yang dipakai
 
-- ...
-```
+- components
+- context
+- hooks
+- pages
+- context API
+- LocalStorage
